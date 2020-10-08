@@ -4,9 +4,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-from data_parser import preprocess_data
+from lab1.data_parser import preprocess_data
 
-df = pd.read_csv('data/DATABASE (2).csv', sep=';')
+df = pd.read_csv('../data/DATABASE (2).csv', sep=';')
 preprocess_data(df)
 
 
