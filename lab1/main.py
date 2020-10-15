@@ -1,4 +1,5 @@
 import sys
+from datetime import datetime
 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -6,7 +7,7 @@ import numpy as np
 
 from lab1.data_parser import preprocess_data
 
-df = pd.read_csv('../data/DATABASE (2).csv', sep=';')
+df = pd.read_csv('data/DATABASE (2).csv', sep=';')
 preprocess_data(df)
 
 
@@ -58,11 +59,8 @@ two_columns_nn_graphs = {
 def determine_datatype(single_column: pd.Series):  # TODO rework
     if isinstance(single_column[0], str) or isinstance(single_column[0], bool):
         return 'c'
-    if isinstance(single_column[0], int) or\
-            isinstance(single_column[0], float) or\
-            isinstance(single_column[0], np.int64):
+    else:
         return 'n'
-    print(type(single_column[0]), file=sys.stderr)
 
 
 print(f"Available columns: {', '.join(df.columns)}")
@@ -103,10 +101,10 @@ if len(columns) == 2:
             print(f"Graph {graph} is not allowed here!", file=sys.stderr)
             sys.exit()
     for i, graph in enumerate(graphs):
-        plt.subplot(int(f"1{len(graphs)}{i+1}"))
+        # plt.show()
         plt.title(f"{columns[0]} and {columns[1]} {graph}")
         available_graphs[graph](df, columns[0], columns[1])
-        plt.savefig("output.png")
+        plt.savefig(f"output{i+1}.png")
 
 else:
     column = df[columns[0]]
@@ -127,9 +125,9 @@ else:
             print(f"Graph {graph} is not allowed here!", file=sys.stderr)
             exit()
     for i, graph in enumerate(graphs):
-        plt.subplot(int(f"1{len(graphs)}{i+1}"))
+        # plt.show()
         plt.title(f"{columns[0]} {graph}")
         available_graphs[graph](column)
-        plt.savefig("output.png")
+        plt.savefig(f"output{i+1}.png")
 
 print('Graphs was plotted successfully!')

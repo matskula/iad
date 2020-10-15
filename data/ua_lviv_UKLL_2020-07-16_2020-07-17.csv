@@ -1,0 +1,53 @@
+day/month;Time;Temperature;Dew Point;Humidity;Wind;Wind Speed;Wind Gust;Pressure;Precip.;Precip Accum;Condition
+16.Jul;12:00 AM;57 F;52 F;82 %;E;2 mph;0 mph;28.81 in;0.0 in;Fair
+16.Jul;12:30 AM;57 F;54 F;88 %;SE;4 mph;0 mph;28.81 in;0.0 in;Fair
+16.Jul;1:00 AM;57 F;54 F;88 %;SSE;4 mph;0 mph;28.81 in;0.0 in;Fair
+16.Jul;1:30 AM;57 F;54 F;88 %;E;2 mph;0 mph;28.78 in;0.0 in;Fair
+16.Jul;2:00 AM;55 F;54 F;94 %;SE;2 mph;0 mph;28.78 in;0.0 in;Fair
+16.Jul;2:30 AM;55 F;54 F;94 %;SSE;2 mph;0 mph;28.78 in;0.0 in;Fair
+16.Jul;3:00 AM;55 F;54 F;94 %;SSE;2 mph;0 mph;28.78 in;0.0 in;Fair
+16.Jul;3:30 AM;55 F;52 F;88 %;SE;2 mph;0 mph;28.78 in;0.0 in;Fair
+16.Jul;4:00 AM;54 F;52 F;94 %;CALM;0 mph;0 mph;28.78 in;0.0 in;Fair
+16.Jul;4:30 AM;54 F;50 F;88 %;CALM;0 mph;0 mph;28.78 in;0.0 in;Fair
+16.Jul;5:00 AM;54 F;50 F;88 %;SSE;2 mph;0 mph;28.78 in;0.0 in;Fair
+16.Jul;5:30 AM;52 F;50 F;94 %;VAR;2 mph;0 mph;28.78 in;0.0 in;Fair
+16.Jul;6:00 AM;52 F;52 F;100 %;SE;2 mph;0 mph;28.78 in;0.0 in;Fair
+16.Jul;6:30 AM;54 F;52 F;94 %;SE;2 mph;0 mph;28.78 in;0.0 in;Fair
+16.Jul;7:00 AM;55 F;55 F;100 %;SSE;2 mph;0 mph;28.78 in;0.0 in;Fair
+16.Jul;7:30 AM;59 F;55 F;88 %;S;2 mph;0 mph;28.78 in;0.0 in;Fair
+16.Jul;8:00 AM;61 F;55 F;82 %;VAR;2 mph;0 mph;28.78 in;0.0 in;Fair
+16.Jul;8:30 AM;64 F;55 F;73 %;VAR;2 mph;0 mph;28.78 in;0.0 in;Fair
+16.Jul;9:00 AM;66 F;55 F;68 %;SSW;4 mph;0 mph;28.78 in;0.0 in;Fair
+16.Jul;9:30 AM;68 F;55 F;64 %;S;4 mph;0 mph;28.78 in;0.0 in;Fair
+16.Jul;10:00 AM;70 F;54 F;56 %;SW;4 mph;0 mph;28.78 in;0.0 in;Fair
+16.Jul;10:30 AM;72 F;57 F;60 %;S;4 mph;0 mph;28.78 in;0.0 in;Fair
+16.Jul;11:00 AM;73 F;57 F;57 %;SSE;4 mph;0 mph;28.78 in;0.0 in;Fair
+16.Jul;11:30 AM;72 F;54 F;53 %;S;4 mph;0 mph;28.78 in;0.0 in;Fair
+16.Jul;12:00 PM;73 F;55 F;53 %;S;7 mph;0 mph;28.78 in;0.0 in;Fair
+16.Jul;12:30 PM;73 F;55 F;53 %;S;4 mph;0 mph;28.78 in;0.0 in;Fair
+16.Jul;1:00 PM;75 F;59 F;57 %;SSW;7 mph;0 mph;28.75 in;0.0 in;Fair
+16.Jul;1:28 PM;75 F;52 F;44 %;SW;7 mph;0 mph;28.75 in;0.0 in;Thunder in the Vicinity
+16.Jul;1:30 PM;75 F;55 F;50 %;SW;7 mph;0 mph;28.75 in;0.0 in;Thunder in the Vicinity
+16.Jul;2:00 PM;75 F;54 F;47 %;WNW;4 mph;16 mph;28.75 in;0.0 in;Thunder in the Vicinity
+16.Jul;2:29 PM;70 F;52 F;53 %;NE;13 mph;0 mph;28.75 in;0.0 in;Mostly Cloudy
+16.Jul;2:30 PM;70 F;54 F;56 %;NE;13 mph;0 mph;28.75 in;0.0 in;Mostly Cloudy
+16.Jul;2:49 PM;73 F;54 F;50 %;NE;11 mph;0 mph;28.75 in;0.0 in;Thunder in the Vicinity
+16.Jul;3:00 PM;75 F;55 F;50 %;ENE;9 mph;0 mph;28.75 in;0.0 in;Thunder in the Vicinity
+16.Jul;3:30 PM;72 F;52 F;50 %;E;11 mph;0 mph;28.75 in;0.0 in;Thunder in the Vicinity
+16.Jul;3:36 PM;72 F;52 F;50 %;E;11 mph;0 mph;28.75 in;0.0 in;Mostly Cloudy
+16.Jul;4:00 PM;73 F;54 F;50 %;ENE;11 mph;0 mph;28.75 in;0.0 in;Partly Cloudy
+16.Jul;4:30 PM;72 F;54 F;53 %;E;7 mph;0 mph;28.75 in;0.0 in;Partly Cloudy
+16.Jul;5:00 PM;73 F;55 F;53 %;ESE;7 mph;0 mph;28.75 in;0.0 in;Partly Cloudy
+16.Jul;5:30 PM;70 F;55 F;60 %;SSW;7 mph;0 mph;28.75 in;0.0 in;Partly Cloudy
+16.Jul;6:00 PM;66 F;57 F;73 %;W;13 mph;0 mph;28.75 in;0.0 in;Partly Cloudy
+16.Jul;6:30 PM;66 F;57 F;73 %;WNW;13 mph;0 mph;28.75 in;0.0 in;Partly Cloudy
+16.Jul;7:00 PM;66 F;59 F;78 %;WNW;7 mph;0 mph;28.75 in;0.0 in;Partly Cloudy
+16.Jul;7:30 PM;66 F;59 F;78 %;NW;7 mph;0 mph;28.75 in;0.0 in;Light Rain Shower
+16.Jul;8:00 PM;66 F;57 F;73 %;NNW;4 mph;0 mph;28.78 in;0.0 in;Partly Cloudy
+16.Jul;8:30 PM;64 F;57 F;77 %;NNW;7 mph;0 mph;28.78 in;0.0 in;Partly Cloudy
+16.Jul;9:00 PM;64 F;57 F;77 %;NNW;4 mph;0 mph;28.78 in;0.0 in;Partly Cloudy
+16.Jul;9:30 PM;64 F;57 F;77 %;VAR;2 mph;0 mph;28.78 in;0.0 in;Fair
+16.Jul;10:00 PM;63 F;59 F;88 %;W;2 mph;0 mph;28.78 in;0.0 in;Fair
+16.Jul;10:30 PM;63 F;59 F;88 %;WSW;4 mph;0 mph;28.78 in;0.0 in;Fair
+16.Jul;11:00 PM;61 F;59 F;94 %;VAR;2 mph;0 mph;28.78 in;0.0 in;Fair
+16.Jul;11:30 PM;63 F;59 F;88 %;WSW;4 mph;0 mph;28.78 in;0.0 in;Fair

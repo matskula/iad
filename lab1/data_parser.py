@@ -16,18 +16,21 @@ def lstrip_int_transform(value: str, characters: str, output_type: type = int):
 
 def preprocess_data(weather_df: pd.DataFrame):
     weather_df['day/month'] = weather_df['day/month'].astype(str) + '.2019'
-    weather_df.set_index('day/month', inplace=True)
     weather_df['Time'] = weather_df['Time'].apply(time_transform)
+    weather_df['Datetime'] = pd.to_datetime(weather_df['day/month'] + ' ' + weather_df['Time'])
+    del weather_df['Time']
+    del weather_df['day/month']
+    weather_df.set_index('Datetime')
     weather_df['Temperature'] = weather_df['Temperature'].apply(partial(lstrip_int_transform, characters=' FC'))
     weather_df['Dew Point'] = weather_df['Dew Point'].apply(partial(lstrip_int_transform, characters=' FC'))
     weather_df['Humidity'] = weather_df['Humidity'].apply(partial(lstrip_int_transform, characters=' %'))
     weather_df['Wind Speed'] = weather_df['Wind Speed'].apply(partial(lstrip_int_transform, characters=' kmph'))
     weather_df['Wind Gust'] = weather_df['Wind Gust'].apply(partial(lstrip_int_transform, characters=' kmph'))
     # uncomment for scrapped dataset
-    # weather_df['Pressure'] = weather_df['Pressure'].apply(lambda x: x.replace(',', '.'))
-    # weather_df['Pressure'] = weather_df['Pressure'].apply(
-    #     partial(lstrip_int_transform, characters=' in', output_type=float)
-    # )
+    weather_df['Pressure'] = weather_df['Pressure'].apply(lambda x: x.replace(',', '.'))
+    weather_df['Pressure'] = weather_df['Pressure'].apply(
+        partial(lstrip_int_transform, characters=' in', output_type=float)
+    )
     # weather_df['Precip.'] = weather_df['Precip.'].apply(lambda x: x.replace(',', '.'))
     # weather_df['Precip.'] = weather_df['Precip.'].apply(
     #     partial(lstrip_int_transform, characters=' in', output_type=float)

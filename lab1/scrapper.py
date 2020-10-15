@@ -25,7 +25,7 @@ browser = webdriver.Firefox()
 
 
 from_date = date(2020, 7, 16)  # parse(input('Enter start date in format yyyy-mm-dd: ')).date()
-to_date = date(2020, 7, 17)  # parse(input('Enter end date in format yyyy-mm-dd: ')).date()
+to_date = date(2020, 9, 16)  # parse(input('Enter end date in format yyyy-mm-dd: ')).date()
 assert to_date <= date.today(), "We cannot jump to The Future yet :("
 
 f = open(f'data/ua_lviv_UKLL_{from_date}_{to_date}.csv', 'w')
